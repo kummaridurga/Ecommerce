@@ -140,7 +140,7 @@ MEDIA_URL = '/media/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 PAYPAL_TEST = True
 
-LOGIN_REDIRECT_URL = '/accounts/register/'
+LOGIN_REDIRECT_URL = '/'
 ACCOUNT_ACTIVATION_DAYS=7
 REGISTRATION_AUTO_LOGIN=True
 EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
